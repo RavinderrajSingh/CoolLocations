@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --black: #000000;
+    --brown: #3D0000;
+    --wine: #950101;
+    --red: #FF0000;
+}
+
+.hook{
+    padding-top: 30px;
+    /* background-color: var(--brown); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+
+.heading h1{
+    font-size: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.subheading h3{
+    font-size: 25px;
+    /* font-weight: 400; */
+    padding-bottom: 20px;
+}
+
+.supporting {
+    width: 65%;
+    text-align: justify;
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+
+
+footer{
+    margin-top: 30px;
+    left: 0;
+    padding: 20px;
+    width: 100vw;
+    background-color: var(--brown);
+    /* color: aliceblue; */
+}
+
+footer p{
+    color: antiquewhite;
+}

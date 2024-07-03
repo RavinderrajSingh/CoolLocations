@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root{
+    --black:#000000;
+    --brown:#3D0000;
+    --wine:#950101;
+    --red:#FF0000;
+}
+
+*{
+    /* background-color: var(--black); */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arsenal SC",
+        sans-serif;
+        color: var(--red);
+}
+
+.navbar{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: left;
+}
+
+.logo img{
+    height: 9vh;
+    cursor: pointer;
+
+}
+
+.menuitems{
+    align-content: center;
+    padding-left: 30px;
+    /* justify-content: center; */
+}
+
+.menuitems ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menuitems li{
+    padding: 10px;
+    align-items: center;
+}
+
+.menuitems a{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--red);
+}
+
+.menuitems .active{
+    text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-color: var(--red);
+}
+
+.menuitems a:hover{
+    text-decoration: underline;
+    color: var(--red);
+    text-underline-offset: 5px;
+    text-decoration-color: var(--red);
+}
+
+
+
+
+
